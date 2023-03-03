@@ -1,0 +1,32 @@
+
+<div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+  <a
+    href="#"
+    className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+  >
+    <ShoppingCartIcon color="#00135B" width={30} height={30} />
+  </a>
+
+  <div className="flex">
+    <a
+      href="#"
+      className="ml-8 rounded-full border-primary border-2 text-primary inline-flex items-center justify-center whitespace-nowrap px-3 text-base font-medium text-white shadow-sm"
+    >
+      <div className="flex">
+        <ArrowDownIcon
+          className="mt-1"
+          color="#00135B"
+          fontSize={2}
+          width={25}
+          height={25}
+        />
+        <UserCircleIcon
+          className="ml-5"
+          color="#00135B"
+          width={35}
+          height={35}
+        />
+      </div>
+    </a>
+  </div>
+</div>
